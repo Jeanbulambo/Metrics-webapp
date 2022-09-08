@@ -1,0 +1,67 @@
+.error-page {
+  display: -webkit-box;
+  display: flex;
+  margin: auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #5786e4;
+  color: white;
+}
+
+.error-page h1 {
+  font-size: 1.5em;
+}
+
+.error-page h2 {
+  font-size: 1.3em;
+  margin-bottom: 0;
+}
+
+.error-page p {
+  margin-top: 0;
+}
+
+.error-message {
+  margin: auto;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 5vw;
+}
+
+@media screen and (min-width: 769px) {
+  .error-page {
+    height: 300px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .error-page h1 {
+    font-size: 2em;
+  }
+
+  .error-page h2 {
+    font-size: 1.5em;
+  }
+
+  .error-page p {
+    font-size: 1.3em;
+  }
+
+  .map {
+    max-width: 350px;
+    max-height: 270px;
+  }
+
+  .country-img {
+    width: 200px;
+    height: 150px;
+  }
+
+  .map-container {
+    margin-right: 7vw;
+  }
+}

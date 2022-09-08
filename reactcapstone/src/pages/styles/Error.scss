@@ -1,0 +1,62 @@
+$sky-blue: #5786e4;
+
+.error-page {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  background-color: $sky-blue;
+  color: white;
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-top: 0;
+  }
+}
+
+.error-message {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 5vw;
+}
+
+@media screen and (min-width: 769px) {
+  .error-page {
+    height: 300px;
+    align-items: center;
+
+    h1 {
+      font-size: 2em;
+    }
+
+    h2 {
+      font-size: 1.5em;
+    }
+
+    p {
+      font-size: 1.3em;
+    }
+  }
+
+  .map {
+    max-width: 350px;
+    max-height: 270px;
+  }
+
+  .country-img {
+    width: 200px;
+    height: 150px;
+  }
+
+  .map-container {
+    margin-right: 7vw;
+  }
+}
