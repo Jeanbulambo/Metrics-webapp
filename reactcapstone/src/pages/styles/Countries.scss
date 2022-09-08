@@ -1,0 +1,85 @@
+$blue-1: #e10081;
+$blue-2: #d50078;
+$blue-3: #3f63a5;
+$sky-blue: #ff0094;
+
+.country-page {
+  background-color: $sky-blue;
+  color: white;
+}
+
+.country-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0.5rem;
+
+  h2 {
+    font-size: inherit;
+    margin-bottom: 0;
+  }
+}
+
+.country-stats {
+  background-color: $blue-2;
+  padding: 0.3rem;
+  color: white;
+}
+
+.even {
+  padding: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: $sky-blue;
+  color: white;
+}
+
+.odd {
+  padding: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: $blue-1;
+  color: white;
+}
+
+.views {
+  display: flex;
+
+  p {
+    margin-right: 0.9rem;
+  }
+}
+
+.arrow-right svg {
+  width: 1rem;
+  height: 1rem;
+  color: white;
+}
+
+@media screen and (min-width: 769px) {
+  li:nth-child(4n+2),
+  li:nth-child(4n+3) {
+    background-color: $sky-blue;
+  }
+
+  li:nth-child(6n+2),
+  li:nth-child(6n+4),
+  li:nth-child(6n+6) {
+    background-color: $blue-1;
+  }
+
+  .country-img {
+    width: 200px;
+    height: 150px;
+  }
+
+  .map {
+    max-width: 200px;
+    max-height: 150px;
+  }
+
+  .map-container {
+    margin-right: 7vw;
+  }
+}
